@@ -259,7 +259,7 @@ def generate(rm: ResourceManager):
 
     ### BLOCK TAGS ###
     rm.block_tag('breaks_slowly', 'minecraft:netherrack', 'minecraft:soul_sand', 'minecraft:soul_soil', 'minecraft:magma_block', 'minecraft:warped_nylium', 'minecraft:crimson_nylium')
-    rm.block_tag('event_replaceable', 'minecraft:netherrack', 'minecraft:soul_sand', 'minecraft:soul_soil', '#minecraft:base_stone_overworld', '#tfc:dirt', '#tfc:grass', 'minecraft:blacstone', 'minecraft:warped_nylium', 'minecraft:crimson_nylium')
+    rm.block_tag('event_replaceable', 'minecraft:netherrack', 'minecraft:soul_sand', 'minecraft:soul_soil', '#minecraft:base_stone_overworld', '#tfc:dirt', '#tfc:grass', 'minecraft:blackstone', 'minecraft:warped_nylium', 'minecraft:crimson_nylium')
 
     rm.block_tag('tfc:breaks_when_isolated', 'minecraft:basalt', 'minecraft:blackstone', 'minecraft:netherrack', 'beneath:crackrack')
     rm.block_tag('tfc:tree_grows_on', 'minecraft:netherrack', 'minecraft:warped_nylium', 'minecraft:crimson_nylium')
